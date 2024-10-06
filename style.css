@@ -1,0 +1,80 @@
+html{
+   background-color: #C5C1C0; 
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 800px;
+    border-radius: 8px;
+    padding: 25px;
+    margin: auto;
+    
+}
+
+.main-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entree{
+    background-color: #F5F5F5;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.side{
+    background-color: #F5F5F5;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.options{
+
+}
+
+.customer-data{
+    background-color: #F5F5F5;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    width: 82%;
+    margin-bottom: 18px;
+    margin-left: 55px;
+    padding: 8px;
+    border: #FFFFFF;
+}
+
+button{
+    background-color: #0069D9;
+    color: #FFFFFF;
+    width: 100%;
+    border: 0 none;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #1783f7;
+    
+}
