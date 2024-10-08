@@ -7,8 +7,9 @@ html{
     width: 800px;
     border-radius: 8px;
     padding: 25px;
-    margin: auto;
-    
+    padding-bottom: 300px;
+    margin: auto; 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .main-title{
@@ -27,12 +28,28 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 700;
+}
+
+.price{
+    color: #324B33;
+    margin-bottom: 5px;
+    font-size: large;
+    font-weight: 700;
+}
+
 .entree{
     background-color: #F5F5F5;
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .side{
@@ -40,7 +57,7 @@ html{
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .menu-options{
@@ -57,14 +74,15 @@ html{
 .options{
     background-color: brown;
     width: 80%;
-    height: 300px;
+    height: 330px;
     border-radius: 8px;
-    padding: 10px;
-    
+    padding: 10px;  
+    padding-bottom: 15px;
 }
 img{
     width: 100%;
     height: 250px;
+    margin-bottom: 0;
 }
 
 .customer-data{
@@ -72,7 +90,7 @@ img{
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 input{
@@ -90,7 +108,7 @@ button{
     border: 0 none;
     border-radius: 3px;
     padding: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 button:hover{
@@ -98,3 +116,65 @@ button:hover{
     background-color: #1783f7;
     
 }
+
+.quantity {
+    display: inline-block; 
+    margin-left: 32px;
+    }
+   
+   .quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+    }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; 
+    }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+    }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    width: 30px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;
+    }
+   
+   .quantity.buttons_added .minus {
+    border-right: 0;
+    }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; 
+    }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; 
+    }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+    }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; 
+    }
