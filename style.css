@@ -20,12 +20,15 @@ html{
 
 .title{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
 .description{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
 
 p{
@@ -38,7 +41,7 @@ p{
 }
 
 .price{
-    color: #324B33;
+    color: #297e2b;
     margin-bottom: 5px;
     font-size: large;
     font-weight: 700;
@@ -61,7 +64,6 @@ p{
 }
 
 .menu-options{
-    background-color: aqua;
     display: flex;
     width: 85%;  
     margin: auto;
@@ -72,12 +74,13 @@ p{
 }
 
 .options{
-    background-color: brown;
+    background-color: #F5F5F5;
     width: 80%;
     height: 330px;
     border-radius: 8px;
     padding: 10px;  
     padding-bottom: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
 }
 img{
     width: 100%;
@@ -97,8 +100,11 @@ input{
     width: 82%;
     margin-bottom: 18px;
     margin-left: 55px;
-    padding: 8px;
+    margin-top: 10px;
+    padding: 10px;
     border: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 button{
