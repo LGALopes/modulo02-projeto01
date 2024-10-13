@@ -7,7 +7,7 @@ html{
     width: 800px;
     border-radius: 8px;
     padding: 25px;
-    padding-bottom: 300px;
+    padding-bottom: 10px;
     margin: auto; 
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
@@ -107,6 +107,11 @@ input{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+input:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
 button{
     background-color: #0069D9;
     color: #FFFFFF;
@@ -114,6 +119,7 @@ button{
     border: 0 none;
     border-radius: 3px;
     padding: 10px;
+    margin-bottom: 30px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -183,4 +189,9 @@ button:hover{
     .quantity.buttons_added .minus:focus,
    .quantity.buttons_added .plus:focus {
     outline: none; 
+    }
+
+    #output {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
     }
