@@ -21,10 +21,12 @@ function calc() {
     for (var input of quantities) {
         var id = parseInt(input.id);
         var quantity = parseInt(input.value) || 0;
-
+        
         if (quantity > 0) {
-            outputHtml += `<li><b>Prato:</b> ${prods[id - 1].name} - <b>Preço Unitário:</b> ${formatter.format(prods[id - 1].price)} - <b>Quantidade Total:</b> ${quantity}</li>`;
-            total += prods[id - 1].price * quantity; 
+            var subtotal = prods[id - 1].price * quantity;
+
+            outputHtml += `<li><b>Prato:</b> ${prods[id - 1].name} - <b>Preço Unitário:</b> ${formatter.format(prods[id - 1].price)} - <b>Quantidade Total:</b> ${quantity} - <b>Subtotal:</b> ${formatter.format(subtotal)}</li>`;
+            total += subtotal;; 
         }
     }
     if (total > 0) {
